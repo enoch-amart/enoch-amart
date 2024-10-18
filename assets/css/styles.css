@@ -36,7 +36,51 @@
 /*=============== DARK THEME ===============*/
 
 /*=============== BASE ===============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+input,
+textarea,
+button,
+body {
+  font-family: var(--body-font);
+  font-size: (--larger-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+input,
+textarea,
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--weight-600);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 
 /*=============== STYLE SWITCHER ===============*/
