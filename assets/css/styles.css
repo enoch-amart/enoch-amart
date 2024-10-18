@@ -1,20 +1,21 @@
 /*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: ;
+  --header-height: 3.5rem;
 
   /*========== Colors ==========*/
   /* Color mode HSL(hue, saturation, lightness) */
-  --first-color: ;
-  --first-color-dark: ;
-  --first-color-light: ;
-  --title-color: ;
-  --text-color: ;
-  --body-color: ;
-  --container-color: ;
-  --border-color: ;
-  --white: ;
+  --first-color: hsl(268, 77%, 58%);
+  --first-color-dark: hsl(268, 78%, 51%);
+  --first-color-light: hsl(268, 100%, 83%);
+  --title-color: hsl(0, 0%, 87%);
+  --text-color: hsl(0, 0%, 69%);
+  --body-color: hsl(200, 12%, 5%);
+  --container-color: hsl(200, 10%, 8%);
+  --border-color: hsl(0, 0%, 20%);
+  --white: #fff;
 
   /*========== Font and typography ==========*/
   /* .5rem = 8px | 1rem = 16px ... */
