@@ -3,6 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to the personal portfolio of Enoch Amarteifio, a developer and junior security analyst. Discover my projects, skills, and expertise in web development, SEO, and cybersecurity."
+    />
+    <meta
+      name="keywords"
+      content="Enoch Amarteifio, developer, junior security analyst, portfolio, SEO, web development, cybersecurity, programming, projects"
+    />
+    <meta name="author" content="Enoch Amarteifio" />
+
+    <!-- Open Graph for social media -->
+    <meta
+      property="og:title"
+      content="Enoch Amarteifio - Developer & Junior Security Analyst Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Explore the portfolio of Enoch Amarteifio, showcasing skills in web development, SEO, and cybersecurity."
+    />
+    <meta property="og:url" content="https://amartenoch.netlify.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Enoch Amarteifio - Developer & Junior Security Analyst Portfolio"
+    />
+    <meta
+      name="twitter:description"
+      content="Visit the developer and junior security analyst portfolio of Enoch Amarteifio, featuring web projects, SEO skills, and security analysis."
+    />
+    <meta name="twitter:url" content="https://amartenoch.netlify.com" />
+
+    <title>
+      Enoch Amarteifio - Developer & Junior Security Analyst Portfolio
+    </title>
     <!--=============== FONT AWESOME ===============-->
     <link
       rel="stylesheet"
@@ -12,8 +49,33 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="/assets/css/styles.css" />
 
-    <title>Enoch Amarteifio's Portfolio Website</title>
+    >
+
+    <!-- Content Security Policy -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' https://unpkg.com; style-src 'self'; img-src 'self';"
+    />
+
+    <!-- ScrollReveal library -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        ScrollReveal().reveal(".home__title", { duration: 1000 });
+        ScrollReveal().reveal(".home__description", {
+          duration: 1200,
+          delay: 200,
+        });
+        ScrollReveal().reveal(".work__card", { duration: 1500, interval: 200 });
+        ScrollReveal().reveal(".skills__percentage", {
+          duration: 1000,
+          delay: 300,
+        });
+      });
+    </script>
   </head>
+
   <body>
     <!--==================== STYLE SWITCHER ====================-->
     <input type="radio" id="color-1" name="color" />
@@ -99,10 +161,11 @@
               a <span>DevSec Engineer</span>
             </h1>
             <p class="home__description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Aspernatur quae deleniti earum suscipit assumenda corrupti eos hic
-              ea iure, aliquam modi eum reiciendis blanditiis. Sequi repellat
-              similique numquam sunt maxime.
+              As a passionate Developer and Junior Security Analyst, I
+              specialize in creating optimized and secure web applications. My
+              journey includes building web projects, mastering frontend and
+              backend technologies, and strengthening my cybersecurity knowledge
+              through real-world projects.
             </p>
 
             <div class="home__btns">
@@ -131,9 +194,11 @@
               Analyst
             </h2>
             <p class="about__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cum
-              distinctio mollitia odio officiis dolore exercitationem tempore
-              eos numquam magnam.
+              I am a driven Frontend Developer with a knack for secure coding
+              practices. My hands-on experience includes building interactive
+              web applications, optimizing code, and solving real-world
+              cybersecurity challenges. I merge development and security to
+              deliver seamless and secure digital experiences.
             </p>
             <ul class="about__data grid">
               <li class="data__item">
@@ -212,9 +277,9 @@
                   </div>
 
                   <p class="resume__description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facere quod sapiente facilis iure provident sed quasi eius
-                    iusto aut a spernatur?
+                    Gained hands-on experience through various security activity
+                    projects, strengthening knowledge in network security,
+                    incident response, and digital forensics.
                   </p>
                 </div>
               </div>
@@ -233,9 +298,9 @@
                   </div>
 
                   <p class="resume__description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facere quod sapiente facilis iure provident sed quasi eius
-                    iusto aut a spernatur?
+                    Gained hands-on experience through various security activity
+                    projects, strengthening knowledge in network security,
+                    incident response, and digital forensics.
                   </p>
                 </div>
               </div>
@@ -252,9 +317,9 @@
                   </div>
 
                   <p class="resume__description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facere quod sapiente facilis iure provident sed quasi eius
-                    iusto aut a spernatur?
+                    Gained hands-on experience through various security activity
+                    projects, strengthening knowledge in network security,
+                    incident response, and digital forensics.
                   </p>
                 </div>
               </div>
@@ -278,9 +343,9 @@
                   </div>
 
                   <p class="resume__description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facere quod sapiente facilis iure provident sed quasi eius
-                    iusto aut a spernatur?
+                    Gained hands-on experience through various security activity
+                    projects, strengthening knowledge in network security,
+                    incident response, and digital forensics.
                   </p>
                 </div>
               </div>
@@ -297,9 +362,9 @@
                   </div>
 
                   <p class="resume__description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facere quod sapiente facilis iure provident sed quasi eius
-                    iusto aut a spernatur?
+                    Gained hands-on experience through various security activity
+                    projects, strengthening knowledge in network security,
+                    incident response, and digital forensics.
                   </p>
                 </div>
               </div>
@@ -316,9 +381,9 @@
                   </div>
 
                   <p class="resume__description">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Facere quod sapiente facilis iure provident sed quasi eius
-                    iusto aut a spernatur?
+                    Gained hands-on experience through various security activity
+                    projects, strengthening knowledge in network security,
+                    incident response, and digital forensics.
                   </p>
                 </div>
               </div>
@@ -642,19 +707,36 @@
           <form action="" class="contact__form">
             <div class="form__group">
               <div class="form__input">
-                <input type="text" placeholder="Name" class="input__control" />
+                <input
+                  type="text"
+                  placeholder="Name"
+                  class="input__control"
+                  maxlength="50"
+                  minlength="3"
+                  required
+                />
               </div>
               <div class="form__input">
                 <input
                   type="email"
                   placeholder="johndoe@example.com"
                   class="input__control"
+                  required
+                  minlength="5"
+                  maxlength="50"
                 />
               </div>
             </div>
 
             <div class="form__input">
-              <input type="text" placeholder="Subject" class="input__control" />
+              <input
+                type="text"
+                placeholder="Subject"
+                class="input__control"
+                minlength="3"
+                maxlength="100"
+                required
+              />
             </div>
             <div class="form__input">
               <textarea
@@ -663,6 +745,7 @@
                 placeholder="Message"
                 cols="30"
                 rows="10"
+                minlength="5"
                 class="input__control textarea"
               ></textarea>
             </div>
