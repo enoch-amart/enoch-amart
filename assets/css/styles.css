@@ -94,6 +94,24 @@ img {
   max-width: 100%;
 }
 /*=============== REUSABLE CSS CLASSES ===============*/
+.scroll-header {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.show-menu {
+  right: 0;
+}
+
+@keyframes skillsFill {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 .container {
   max-width: 1200px;
   margin-inline: auto;
