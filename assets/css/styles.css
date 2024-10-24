@@ -803,6 +803,8 @@ input[type="checkbox"] {
 
 .work__description {
   font-size: var(--large-font-size);
+  text-align: center;
+  margin-top: 1rem;
 }
 
 /* Work hover */
