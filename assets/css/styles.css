@@ -942,6 +942,10 @@ input[type="checkbox"] {
   font-size: var(--large-font-size);
 }
 
+.footer__social-link:hover {
+  color: var(--first-color);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 1200px) {
