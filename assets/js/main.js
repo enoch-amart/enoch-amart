@@ -13,7 +13,7 @@ const sr = ScrollReveal({
 // Apply animations to different sections
 sr.reveal(".home__content", {});
 sr.reveal(".home__img", { delay: 600 });
-sr.reveal(".about__img", { delay: 600 });
+// sr.reveal(".about__img", { delay: 600 });
 sr.reveal(".about__content", { delay: 700 });
 sr.reveal(".services__item", { interval: 100 });
 sr.reveal(".work__card", { interval: 100 });
