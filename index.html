@@ -40,7 +40,27 @@
     <!-- Content Security Policy -->
     <!-- <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self' https://unpkg.com https://cdn.jsdelivr.net; style-src 'self'; img-src 'self';"
+      content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
+    style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
+    img-src 'self' data: https:;
+    font-src 'self' https://cdnjs.cloudflare.com;
+    connect-src 'self';
+    frame-src 'none';
+    object-src 'none';
+    base-uri 'self';
+    form-action 'self';
+    frame-ancestors 'none';
+    upgrade-insecure-requests;
+  "
+    />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta
+      http-equiv="Referrer-Policy"
+      content="strict-origin-when-cross-origin"
     /> -->
 
     <title>
@@ -552,19 +572,21 @@
           Recent Works
         </h2>
         <div class="work__container container grid">
-          <div class="work__card">
-            <img
-              src="/assets/img/project-img-1.jpg"
-              alt="Nokify Hosting Platform"
-              class="work__img"
-            />
-            <div class="work__details">
-              <h3 class="work__title">Nokify Hosting Platform</h3>
-              <span class="work__description">
-                Modern hosting platform with responsive design and animations
-              </span>
+          <a href="https://nokify.netlify.app" target="_blank">
+            <div class="work__card">
+              <img
+                src="/assets/img/nokify.png"
+                alt="Nokify Hosting Platform"
+                class="work__img"
+              />
+              <div class="work__details">
+                <h3 class="work__title">Nokify Hosting Platform</h3>
+                <span class="work__description">
+                  Modern hosting platform with responsive design and animations
+                </span>
+              </div>
             </div>
-          </div>
+          </a>
           <div class="work__card">
             <img
               src="/assets/img/project-img-2.jpg"

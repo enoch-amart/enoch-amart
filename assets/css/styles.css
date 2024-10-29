@@ -816,6 +816,10 @@ input[type="checkbox"] {
   opacity: 1;
 }
 
+.work__card:hover .work__img {
+  opacity: 0.5;
+}
+
 .work__card:hover :is(.work__title, .work__description) {
   transform: translateY(0);
 }
